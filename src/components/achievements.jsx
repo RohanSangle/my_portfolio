@@ -1,9 +1,9 @@
 import React from 'react'
 
-function achievements() {
+function Achievements() {
   return (
     <div>achievements</div>
   )
 }
 
-export default achievements
+export default Achievements

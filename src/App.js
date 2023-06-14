@@ -1,20 +1,20 @@
 import React from 'react'
 import './App.css'
-import heading from './components/heading'
-import homepage from './components/homepage'
-import achievements from './components/achievements'
-import contact from './components/contact'
-import footer from './components/footer'
+import Heading from './components/Heading'
+import Homepage from './components/Homepage'
+import Achievements from './components/Achievements'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
     
     <div>
-      <heading />
-      <homepage />
-      <achievements />
-      <contact />
-      <footer />
+      <Heading />
+      <Homepage />
+      <Achievements />
+      <Contact />
+      <Footer />
 
     </div>
   )
