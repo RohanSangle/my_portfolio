@@ -46,3 +46,75 @@ section div p{
     padding-top: 2px;
     padding-bottom: 3px;
 }
+
+section ul li{
+    display: inline-block;
+    list-style: none;
+    margin: -10px 8px;
+}
+
+section ul li a{
+    position: relative;
+    color: #0f141e;
+    border: 0 none;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: normal;
+    font-size: 1.125rem;
+    font-family: "Helvetica Now Display DW",sans-serif;
+    position: relative;
+}
+
+section ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: black;
+    position: absolute;
+    transition: 0.5s;
+    left: 0%;
+    bottom: -6px;
+}
+
+section ul li a:hover::after{
+    width: 100%;
+}
+
+.mousescroll{
+    left: 50%;
+    width: 20px;
+    height: 35px;
+    border: 0.3em solid #878a8f;
+    border-radius: 25px;
+    position: relative;
+    margin: 1em;
+}
+
+.wheel{
+    position: absolute;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: #878a8f;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50% ,0);
+    border-radius: 0.6em;
+    animation: wheel 2s ease-in-out infinite;
+}
+
+@keyframes wheel{
+    0%{
+        top: 15%;
+        opacity: 0;
+    }
+    50%{
+        top: 50%;
+        opacity: 1;
+    }
+    100%{
+        top: 85%;
+        opacity: 0;
+    }
+}
