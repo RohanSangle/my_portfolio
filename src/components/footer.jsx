@@ -12,7 +12,7 @@ function Footer() {
           <a href="https://github.com/RohanSangle"><AiFillGithub/></a>
       </div>
       <div className='end'>
-        <p>Made with <AiFillHeart/> by Rohan Sangle</p>
+        <p>Crafted with <AiFillHeart/> by Rohan Sangle</p>
       </div>
     </>
   )
