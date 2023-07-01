@@ -1,0 +1,27 @@
+.me2{
+    padding: 35px;
+    width: 58.333333333%;
+}
+
+
+.achieve{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    color: #878a8f;
+    font-family: "Helvetica Now Display DW",sans-serif;
+    
+}
+
+.bigachieve{
+    font-size: 2.75rem;
+    line-height: 3.125rem;
+    padding-top: 4px;
+    padding-bottom: 1px;
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 800;
+    letter-spacing: -.01em;
+    color: #0f141e;
+}
