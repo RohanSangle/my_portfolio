@@ -1,6 +1,8 @@
 .me{
     padding: 35px;
-    width: 58.333333333%;
+    /* width: 58.333333333%; */
+    text-align: center;
+    display: block;
 }
 
 .fewwords{
@@ -23,4 +25,18 @@
     font-weight: 800;
     letter-spacing: -.01em;
     color: #0f141e;
+    margin-top: 5px;
+}
+
+.moto{
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #878a8f;
+    letter-spacing: 0.2rem;
+    font-size: 1.275rem;
+    line-height: 1.875rem;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    
 }

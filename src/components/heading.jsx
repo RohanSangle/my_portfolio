@@ -1,5 +1,6 @@
 import React from 'react'
 import './Heading.css'
+// import rs from '../images/RS.png'
 
 
 function Heading() {
@@ -7,6 +8,7 @@ function Heading() {
     
     <div className='container'>
       <nav>
+      {/* <img className='logo' src={rs} alt="logo" /> */}
         <h1>Rohan Sangle</h1>
         <ul>
           <li><a href="#">About me</a></li>
