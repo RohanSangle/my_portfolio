@@ -5,7 +5,6 @@
     display: block;
 }
 
-
 .achieve{
     padding: 5px;
     text-transform: uppercase;
@@ -26,4 +25,27 @@
     font-weight: 800;
     letter-spacing: -.01em;
     color: #0f141e;
+}
+
+.flaggif{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(15,20,30,.03),0 1px 3px 0 rgba(15,20,30,.1);
+    transition: box-shadow .2s ease-in-out;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border: 0;
+    /* vertical-align: middle; */
+    /* max-width: 100%; */
+    height: 700px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(15,20,30,.03),0 1px 3px 0 rgba(15,20,30,.1);
+    transition: box-shadow .2s ease-in-out;
+    
 }
