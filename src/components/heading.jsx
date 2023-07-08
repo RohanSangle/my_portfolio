@@ -11,8 +11,8 @@ function Heading() {
       {/* <img className='logo' src={rs} alt="logo" /> */}
         <h1>Rohan Sangle</h1>
         <ul>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Achievements</a></li>
+          <li><a href="#About">About me</a></li>
+          <li><a href="#Achievements">Achievements</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>

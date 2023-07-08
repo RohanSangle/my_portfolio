@@ -11,9 +11,9 @@ function Homepage() {
           <h1>Minimalist Entrepreneur and Developer</h1>
           <p>I am a undergraduate at PCCOE, pursuing B.Tech in Electronics & Telecommunication Engineering. I am also interested in the field of Web Development and have worked on a few projects in this field. I am currently looking for an internship in the field of Development and marketing.</p>
           <ul>
-            <li><a href="#">More About me</a></li>
+            <li><a href="#About">More About me</a></li>
             <li><p>or</p></li>
-            <li><a href="#">View Achievements</a></li>
+            <li><a href="#Achievements">View Achievements</a></li>
           </ul>
       </div>
 
@@ -25,6 +25,7 @@ function Homepage() {
     <div className='mousescroll'>
       <span className='wheel'></span>
     </div>
+    <br />
     </>
   )
 }
