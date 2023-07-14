@@ -25,7 +25,7 @@ function Homepage() {
     <div className='mousescroll'>
       <span className='wheel'></span>
     </div>
-    <br />
+    
     </>
   )
 }
